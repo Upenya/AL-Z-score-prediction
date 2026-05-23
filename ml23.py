@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load model
-model = pickle.load(open(r"C:\Users\User\Desktop\ml\model2.pickle", 'rb'))
+model = pickle.load(open("model2.pickle", 'rb'))
 
 st.set_page_config(page_title="Zscore Prediction", page_icon="🎓", layout="centered")
 st.title("GCE AL EXAM ZSCORE PREDICTION")
